@@ -8,6 +8,8 @@ for user-written and user-read data/configuration files. It's syntax even allows
 For formats that are purely for communication between computers, where the raw data isn't read or written by a user, SDLang isn't the greatest choice compared
 to the likes of JSON and XML.
 
+This library is available as NuGet package under the name `SdlangSharp`.
+
 **Documentation still under construction, this is just the bare minimum right now. Library is early in development as well, so expect rough edges.**
 
 1. [Overview](#overview)
