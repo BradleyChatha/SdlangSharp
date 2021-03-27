@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/BradleyChatha/SdlangSharp</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/BradleyChatha/SdlangSharp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>sdl sdlang parser ast data</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <Authors>Bradley Chatha</Authors>
+    <Copyright>2021 Bradley Chatha</Copyright>
+    <Description>A fast, efficient Sdlang parser used as either a pull parser ala UTF8JsonReader, or used as a user-friendly DOM.</Description>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+</Project>
