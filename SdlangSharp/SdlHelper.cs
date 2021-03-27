@@ -19,5 +19,10 @@ namespace SdlangSharp
             SdlAstToTextConverter.WriteInto(builder, tag, isRoot);
             return builder.ToString();
         }
+
+        public static void Add(this IDictionary<string, SdlAttribute> dict, SdlAttribute attrib)
+        {
+            dict.Add(attrib.Name, attrib);
+        }
     }
 }
