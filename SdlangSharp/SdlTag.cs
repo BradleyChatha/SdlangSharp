@@ -76,7 +76,7 @@ namespace SdlangSharp
         public bool             GetAttributeBooleanOrDefault(string name, bool @default = false)            => this.GetAttributeOrDefault(name)?.Value ?? @default;
         public IList<byte>?     GetAttributeBinaryOrDefault(string name, IList<byte>? @default = null)      => this.GetAttributeOrDefault(name)?.Value?.Binary ?? @default;
         public string?          GetAttributeStringOrDefault(string name, string? @default = null)           => this.GetAttributeOrDefault(name)?.Value ?? @default;
-        public DateTimeOffset  GetAttributeDateTimeOrDefault(string name, DateTimeOffset @default = default)=> this.GetAttributeOrDefault(name)?.Value ?? @default;
+        public DateTimeOffset   GetAttributeDateTimeOrDefault(string name, DateTimeOffset @default = default)=> this.GetAttributeOrDefault(name)?.Value ?? @default;
         public TimeSpan         GetAttributeTimeSpanOrDefault(string name, TimeSpan @default = default)      => this.GetAttributeOrDefault(name)?.Value ?? @default;
     }
 }
